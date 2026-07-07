@@ -21,7 +21,7 @@
   API before wiring a per-version URL, don't assume a casing convention holds.
 -->
 <item>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <url>https://github.com/JohnBoek/SheetSetViewer-releases/releases/latest/download/SheetSetViewer-Setup.exe</url>
     <changelog>https://github.com/JohnBoek/SheetSetViewer-releases/blob/main/CHANGELOG.md</changelog>
     <mandatory>false</mandatory>
