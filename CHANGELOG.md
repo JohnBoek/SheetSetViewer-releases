@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.4 (2026-07-23)
+
+- Improved: in the license window, "Buy license" is now the primary button. Reporting an
+  activation or purchase problem is now a smaller link instead of its own button.
+- Improved: the sheet set tree now starts collapsed instead of fully expanded, so large sheet
+  sets are easier to navigate at a glance.
+
 ## v1.0.3 (2026-07-08)
 
 - Fixed: opening a file from a second window (e.g. double-clicking a .dst while the Viewer was
