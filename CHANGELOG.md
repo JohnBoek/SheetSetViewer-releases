@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.1 (2026-09-15)
+
+- Improved: options now have one clear place under Tools, and the license indicator opens license details directly.
+- Added: a visible, selectable Machine ID with a copy button in Options, including for already activated licenses.
+- Improved: open DWG and PDF files by clicking their filenames, with a folder button beside each file.
+- Added: preferences for the properties panel, grid lines, and expanding the sheet set tree when opening a project.
+- Improved: resizable settings and license windows, clearer tabs and guidance, and easier pasting of long license keys.
+- Fixed: relative drawing and PDF locations now resolve from the original sheet set folder.
+- Fixed: failed update checks no longer report that the app is up to date; file-opening and clipboard failures show clearer feedback.
+
 ## v1.1.0 (2026-09-15)
 
 - Added: one-time licenses for one active computer, with no annual renewal or restriction to a specific AutoCAD version.
