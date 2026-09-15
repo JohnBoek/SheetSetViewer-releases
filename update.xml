@@ -7,13 +7,12 @@
   (SheetSetViewer.csproj <Version> at build time), and <url> must point at that exact installer
   asset on this repo's Releases page.
 
-  Current state: v1.0.4 is LIVE (published 2026-07-23, tag "v1.0.4"). Asset verified via the
-  GitHub API (size 54566641 bytes matches the locally-built installer exactly) and the "latest"
-  permalink verified with a real curl -IL (302 -> 302 -> 200, resolves to
-  releases/download/v1.0.4/SheetSetViewer-Setup.exe) before this file was updated. Note: the
-  download redirect initially 404'd right after publishing (asset metadata already showed
-  "state": "uploaded") and only started resolving a few minutes later — a propagation delay,
-  not a broken release; re-verify with a real curl before trusting the API alone.
+  Current state: v1.1.0 is LIVE (2026-09-15). GitHub latest metadata confirms the
+  SheetSetViewer-Setup.exe asset. Unauthenticated HEAD returned 200 and Content-Length
+  54674189; the full public download also matched the tested installer's byte size and
+  SHA-256 530dce0c78786f24ce31f49f600b12f9c809357a87ebf0cba7e04801565a1262.
+  These checks completed before updating the version below. A previous release needed
+  several minutes for download propagation; metadata alone is not sufficient proof.
 
   The installer's output filename is a FIXED "SheetSetViewer-Setup.exe" (no version suffix, see
   protect/installer/SheetSetViewer.iss) from day one, so both this file and the website's download
@@ -25,7 +24,7 @@
   API before wiring a per-version URL, don't assume a casing convention holds.
 -->
 <item>
-    <version>1.0.4</version>
+    <version>1.1.0</version>
     <url>https://github.com/JohnBoek/SheetSetViewer-releases/releases/latest/download/SheetSetViewer-Setup.exe</url>
     <changelog>https://github.com/JohnBoek/SheetSetViewer-releases/blob/main/CHANGELOG.md</changelog>
     <mandatory>false</mandatory>
